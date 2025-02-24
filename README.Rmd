@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# mytools
+
+<!-- badges: start -->
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/vincentbiot/mytools/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/vincentbiot/mytools/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
+<simpleWarning in system2(util_test[1], util_test[-1], stdout = TRUE, stderr = TRUE): running command ''xclip' -o -selection clipboard 2>&1' had status 1 and error message 'Function not implemented'>
+<simpleWarning in system2(util_test[1], util_test[-1], stdout = TRUE, stderr = TRUE): running command ''xclip' -o -selection clipboard 2>&1' had status 1 and error message 'Function not implemented'>
+<!-- badges: end -->
+
+The goal of mytools is to ...
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+```{r cars}
+summary(cars)
+```
+
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
